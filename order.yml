@@ -13,8 +13,6 @@ spring:
     password: guest
 server:
   port: 8081
-env:
-  dev
   
 eureka:
   client:
