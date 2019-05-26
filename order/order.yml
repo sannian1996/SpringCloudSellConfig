@@ -1,0 +1,26 @@
+#这里可以写 order-dev.yml 与 order-test.yml的通用配置，在拉取配置时将会合并到对应的配置中
+
+#spring:
+#  # 应用名
+#  application:
+#    name: order
+#  # 数据库
+#  datasource:
+#    driver-class-name: com.mysql.jdbc.Driver
+#    username: root
+#    password: 123456
+#    url: jdbc:mysql://127.0.0.1:3306/SpringCloud_Sell?characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+#  # rabbitmq
+#  rabbitmq:
+#    host: 127.0.0.1
+#    port: 5672
+#    username: sannian
+#    password: sannian
+## 端口
+#server:
+#  port: 8081
+
+# eureka:
+#   client:
+#     service-url:
+#       defaultZone: http://localhost:8761/eureka/
