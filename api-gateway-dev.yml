@@ -1,0 +1,10 @@
+spring:
+  # 应用名
+  application:
+    name: api-gateway
+# 端口
+server:
+  port: 80005
+# 自定义配置
+env:
+  dev
