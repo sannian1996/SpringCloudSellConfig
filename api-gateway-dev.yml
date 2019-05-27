@@ -4,7 +4,7 @@ spring:
     name: api-gateway
 # 端口
 server:
-  port: 80005
+  port: 8005
 # 自定义配置
 env:
   dev
