@@ -8,3 +8,16 @@ server:
 # 自定义配置
 env:
   dev
+#    自定义路由
+#zuul:
+#  routes:
+#    myProduct:
+#      path: /myProduct/**
+#      serviceId: product
+#简洁写法
+#zuul:
+#  routes:
+#    product: /myProduct/**
+#  #    禁止访问listForOrder接口，排除某些路由
+#  ignored-patterns:
+#    - /**/product/listForOrder
